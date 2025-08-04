@@ -1,4 +1,4 @@
-// Printing days of the week with input validation
+// Printing days of the week with valid input 
 
 #include <stdio.h>
 
@@ -18,7 +18,7 @@ int main() {
             case 6: printf("Saturday\n"); return 0;
             case 7: printf("Sunday\n"); return 0;
             default:
-                printf("Invalid choice. Please enter a number between 1 and 7.\n\n");
+                printf("Invalid choice. Please enter a number between 0 and 6.\n\n");
         }
     }
 
